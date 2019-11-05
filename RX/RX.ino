@@ -11,8 +11,6 @@ byte gotPack[2], DirX, DirY, Forward, Backward;
 
 void setup()
 {
-  Serial.begin(9600);
-  
   servo.attach(8);
   radio.begin();  
   radio.setAutoAck(0);         
